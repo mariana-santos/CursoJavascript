@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Javascript</title>
+        <script src="./index.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <h1>15 - Verificar a lista de convidados da festa VIP</h1>
+
+        <form>
+            <h2>Bem vindo a festa, senhor(a):</h2>
+            <input type="text" placeHolder="Digite seu nome..." id="convidado">
+
+            <h2>Quem te convidou para essa festa?</h2>
+            <input type="text" placeholder="Quem te convidou?" id="convidou">
+
+            <input type="button" value="Verificar se posso entrar" onclick="verificar()" id="submit">
+            <h3 id="texto">Verificando...</h3>
+        </form>
+    </body>
+</html>
